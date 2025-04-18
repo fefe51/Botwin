@@ -110,3 +110,10 @@ Contenu: "${t}"
   </script>
 </body>
 </html>
+cabal update
+cabal init --non-interactive \
+  --package-name=botwin \
+  --license=MIT \
+  --author="Ton Nom <fayssalelmoutaouakil.com>" \
+  --exe-bin=botwin \
+  --source-dir=src
