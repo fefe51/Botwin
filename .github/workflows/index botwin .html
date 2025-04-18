@@ -9,30 +9,30 @@
       background-color: #121212;
       color: #e0e0e0;
       font-family: Arial, sans-serif;
-      max-width: 600px;
-      margin: 50px auto;
-      padding: 20px;
+      max-width: 600 px;
+      margin: 50 px auto;
+      padding: 20 px;
     }
     h1 {
       text-align: center;
       font-weight: normal;
     }
     .section {
-      margin-bottom: 30px;
+      margin-bottom: 30 px;
     }
     label {
       display: block;
-      margin-bottom: 5px;
+      margin-bottom: 5 px;
       font-weight: bold;
     }
     input, textarea, select, button {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
+      width: 100 %;
+      padding: 10 px;
+      margin-bottom: 10 px;
       background-color: #1e1e1e;
       color: #e0e0e0;
-      border: 1px solid #333;
-      border-radius: 4px;
+      border: 1 px solid #333;
+      border-radius: 4 px;
       box-sizing: border-box;
     }
     button {
@@ -45,9 +45,9 @@
     #result {
       white-space: pre-wrap;
       background: #1e1e1e;
-      padding: 15px;
-      border-radius: 5px;
-      border: 1px solid #333;
+      padding:15 px;
+      border-radius: 5 px;
+      border: 1 px solid #333;
     }
   </style>
 </head>
@@ -81,8 +81,8 @@
   </div>
 
   <script>
-    function analyzeMatch() {
-      const m = document.getElementById('match').value;
+    functiô analyse match() {
+      constm = document.getElementById('match').value;
       document.getElementById('result').innerText = 
         `🔍 Analyse de "${m}" (demo)
 - Contexte général
@@ -90,8 +90,8 @@
 - Note de confiance: 75%
 - Recommandation: Pari sur l'équipe A (cote 1.80)`;
     }
-    function analyzeTicket() {
-      const t = document.getElementById('ticket').value;
+    fonction analyzeTicket() {
+      constt = document.getElementById('ticket').value;
       document.getElementById('result').innerText = 
         `📄 Analyse de ticket (demo)
 Contenu: "${t}"
@@ -99,8 +99,8 @@ Contenu: "${t}"
 - 2/3 favoris solides
 - Conseil: réduire à 1 outsider par combiné`;
     }
-    function analyzeTurf() {
-      const c = document.getElementById('turf').value;
+    fonction analyzeTurf() {
+      constc = document.getElementById('turf').value;
       document.getElementById('result').innerText = 
         `🏇 Analyse de "${c}" (demo)
 - Pedigree détaillé
